@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Ringo Boy</title>
+</head>
+
+<body>
+    <h2 class="title">A Tribute to</h2>
+    <h1 class="titleName">Ringo</h1>
+    <h3>The Greatest Dog on the Planet</h3>
+    <h4>September 23, 2006 -> April 25, 2020</h4>
+    <h4>You left paw prints on our hearts forever, You will be greatly missed</h4>
+
+    <div id="imagesHere">Add slideshow here
+        <img name = 'defaultimage'/>
+    </div>
+
+    <!-- <script language="javascript">
+
+        /*
+        Random image slideshow- By Tyler Clarke (tyler@ihatecoffee.com)
+        For this script and more, visit http://www.javascriptkit.com
+        */
+
+        var delay = 3000 //set delay in miliseconds
+        var curindex = 0
+
+        var randomimages = new Array()
+
+        randomimages[0] = "http://placekitten.com/300/200"
+        randomimages[1] = "5.jpg"
+        randomimages[2] = "2.jpg"
+        randomimages[3] = "4.jpg"
+        randomimages[4] = "3.jpg"
+        randomimages[5] = "6.jpg"
+
+        forces browser to download images immediatly
+        var preload = new Array()
+
+        for (n = 0; n < randomimages.length; n++) {
+            preload[n] = new Image()
+            preload[n].src = randomimages[n]
+        }
+
+        document.write('<img name="defaultimage" src="' + randomimages[Math.floor(Math.random() * (randomimages.length))] + '">')
+
+        function rotateimage() {
+
+            if (curindex == (tempindex = Math.floor(Math.random() * (randomimages.length)))) {
+                curindex = curindex == 0 ? 1 : curindex - 1
+            }
+            else
+                curindex = tempindex
+
+            document.images.defaultimage.src = randomimages[curindex]
+        }
+
+        // setInterval("rotateimage()",delay)
+
+    </script> -->
+
+    
+
+    A little about our Ringo Boy
+    His Likes:
+    <ul>
+        <li>Tennis Balls</li>
+        <li>Snow</li>
+        <li>Pizza Crust</li>
+        <li>His People</li>
+        <li>Quiet Days</li>
+        <li>Lots of Loving</li>
+    </ul>
+    <div> Add image with balls and kids</div>
+    His Dislikes:
+    <ul>
+        <li>Fireworks</li>
+        <li>Thunder</li>
+    </ul>
+    <div>image with earmuffs</div>
+    <h5>And of course his Love / Hate relationship with Jack!</h5>
+    <div>Add image of Jack and Ringo</div>
+
+
+<script src = "imagesDatabase.js"></script>
+<script src = "script.js"></script>
+    
+</body>
+
+</html>
