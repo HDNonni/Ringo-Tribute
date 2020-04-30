@@ -31,8 +31,12 @@ function rotateimage() {
   document.images.defaultimage.src = "images/" + randomimages[curindex];
 }
 
-//const slideShow = setInterval("rotateimage()", delay);
-
+let slideshow;
+const startBtn = document.getElementById("start");
+startBtn.addEventListener("click", () => {
+  console.log("button start clicked");
+  slideShow = setInterval("rotateimage()", delay);
+});
 const stopBtn = document.getElementById("stop");
 stopBtn.addEventListener("click", () => {
   //console.log("button clicked");

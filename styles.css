@@ -46,20 +46,21 @@ h4 {
   text-align: center;
   padding: 20px;
   height: auto;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(27, 27, 27, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(31, 30, 30, 0.75);
+  box-shadow: 10px 10px 4px 0px rgba(32, 32, 32, 0.75);
 }
 img {
   width: auto;
   height: 400px;
-  border-radius: 0.5rem;
+  border-radius: 1.15rem;
 }
 button{
   margin-left:50rem;
+  margin-bottom:1rem;
   padding:8px;
   border-radius:10px;
-  background-color:rgb(101, 101, 102);
+  background-color:rgb(46, 9, 31);
   color:whitesmoke;
   font-variant:small-caps;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -68,6 +69,9 @@ button{
 }
 button:hover{
   padding:12px;
+}
+button:focus{
+  border: none;
 }
 .about {
   margin-top: 2rem;
@@ -100,11 +104,17 @@ button:hover{
 .kids {
   width: 20rem;
   height: 15rem;
+  -webkit-box-shadow: 5px 5px 3px 5px rgba(27, 27, 27, 0.75);
+  -moz-box-shadow: 5px 5px 3px 5px rgba(31, 30, 30, 0.75);
+  box-shadow: 5px 5px 3px 2px rgba(44, 44, 44, 0.75);
 }
 .jack {
   width: 20rem;
   height: 15rem;
   margin-left: 0.5rem;
+  -webkit-box-shadow: 5px 5px 3px 5px rgba(27, 27, 27, 0.75);
+  -moz-box-shadow: 5px 5px 3px 5px rgba(31, 30, 30, 0.75);
+  box-shadow: 5px 5px 3px 2px rgba(44, 44, 44, 0.75);
 }
 .leftSide {
   margin-left: 2rem;
@@ -117,6 +127,9 @@ button:hover{
 .earmuffs {
   height: 15rem;
   width: 15rem;
+  -webkit-box-shadow: 5px 5px 3px 5px rgba(27, 27, 27, 0.75);
+  -moz-box-shadow: 5px 5px 3px 5px rgba(31, 30, 30, 0.75);
+  box-shadow: 5px 5px 3px 2px rgba(44, 44, 44, 0.75);
 }
 .bottomSection {
   margin-left: 22rem;
@@ -133,9 +146,9 @@ button:hover{
 } */
 .background {
   background-image: url("ball.png");
-  background-size: 200px 200px;
+  background-size: 12rem 12rem;
   background-repeat: no-repeat;
-  background-position: 55% 35%;
+  background-position: 54% 30%;
 }
 
 .copy {
