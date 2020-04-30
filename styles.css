@@ -5,20 +5,20 @@
 body,
 html {
   height: 100vh;
-  background-color: rgb(211, 208, 208);
+  background-color: rgb(196, 195, 199);
   font-family: "Handlee", cursive;
-  max-width:1000px;
-  margin-right:auto;
-  margin-left:auto;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url("heart.png");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
 }
 .title {
   text-align: center;
   font-size: 2rem;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 .titleName {
   text-align: center;
@@ -36,7 +36,7 @@ h4 {
 .sadMessage {
   text-align: end;
   padding-right: 1rem;
-  font-size:1.25rem;
+  font-size: 1.25rem;
 }
 .imageContainer {
   background-color: rgb(124, 120, 120);
@@ -53,13 +53,26 @@ h4 {
 img {
   width: auto;
   height: 400px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
-
+button{
+  margin-left:50rem;
+  padding:8px;
+  border-radius:10px;
+  background-color:rgb(101, 101, 102);
+  color:whitesmoke;
+  font-variant:small-caps;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow:8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+button:hover{
+  padding:12px;
+}
 .about {
   margin-top: 2rem;
   text-align: center;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 .row {
@@ -75,65 +88,65 @@ img {
   flex-basis: 100%;
   flex: 1;
 }
-.container li{
-    list-style: none;
+.container li {
+  list-style: none;
 }
 .likes {
-  font-size:1.25rem;
+  font-size: 1.25rem;
 }
-.dislikes{
-  font-size:1.25rem;
+.dislikes {
+  font-size: 1.25rem;
 }
-.kids{
-    width:20rem;
-    height:15rem;
+.kids {
+  width: 20rem;
+  height: 15rem;
 }
 .jack {
-    width:20rem;
-    height:15rem;
-    margin-left:.5rem;
+  width: 20rem;
+  height: 15rem;
+  margin-left: 0.5rem;
 }
-.leftSide{
-    margin-left:2rem;
+.leftSide {
+  margin-left: 2rem;
 }
-.rightSide{
-    margin-left:12rem;
-    margin-top:4.5rem;
-   
+.rightSide {
+  margin-left: 12rem;
+  margin-top: 4.5rem;
 }
 
-.earmuffs{
-    height:15rem;
-    width:15rem;
+.earmuffs {
+  height: 15rem;
+  width: 15rem;
 }
-.bottomSection{
-    margin-left:22rem;
-    margin-top:1rem;
+.bottomSection {
+  margin-left: 22rem;
+  margin-top: 1rem;
 }
-.ringo_jack{
-  font-size:1rem;
+.ringo_jack {
+  font-size: 1rem;
 }
 /* .background{
     background-image: url("heart.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center top;
-}
-.background1{
-    background-image: url("heart.png");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
 } */
-.copy{
-  display:block;
-  text-align: end;
-  margin-right:.5rem;
-  margin-bottom:.5rem;
+.background {
+  background-image: url("ball.png");
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: 55% 35%;
 }
-.finalMessage{
-  display:block;
-  font-size:2rem;
-  margin-left:1rem;
-  margin-bottom:1rem;
+
+.copy {
+  display: block;
+  text-align: end;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.finalMessage {
+  display: block;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }

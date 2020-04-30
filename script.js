@@ -31,7 +31,13 @@ function rotateimage() {
   document.images.defaultimage.src = "images/" + randomimages[curindex];
 }
 
-//setInterval("rotateimage()", delay);
+//const slideShow = setInterval("rotateimage()", delay);
+
+const stopBtn = document.getElementById("stop");
+stopBtn.addEventListener("click", () => {
+  //console.log("button clicked");
+  clearInterval(slideShow);
+});
 
 //  <p align="center">This free script provided by<br />
 //         <a href="http://javascriptkit.com">JavaScript
