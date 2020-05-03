@@ -69,6 +69,7 @@ button{
 }
 button:hover{
   padding:12px;
+  cursor:grab;
 }
 button:focus{
   border: none;
