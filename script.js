@@ -34,12 +34,12 @@ function rotateimage() {
 let slideshow;
 const startBtn = document.getElementById("start");
 startBtn.addEventListener("click", () => {
-  console.log("button start clicked");
+  //console.log("button start clicked");
   slideShow = setInterval("rotateimage()", delay);
 });
 const stopBtn = document.getElementById("stop");
 stopBtn.addEventListener("click", () => {
-  console.log("button clicked");
+  //console.log("button clicked");
   clearInterval(slideShow);
 });
 
