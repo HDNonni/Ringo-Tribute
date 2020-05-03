@@ -8,12 +8,12 @@ let curindex = 0;
 
 let randomimages = ringoImages;
 
-let preload = new Array();
+// let preload = new Array();
 
-for (n = 0; n < randomimages.length; n++) {
-  preload[n] = new Image();
-  preload[n].src = "resizedImages/" + randomimages[n];
-}
+// for (n = 0; n < randomimages.length; n++) {
+//   preload[n] = new Image();
+//   preload[n].src = "resizedImages/" + randomimages[n];
+// }
 let importImages =
   // '<img name="defaultimage" src="' +
   Math.floor(Math.random() * randomimages.length); // +
@@ -39,7 +39,7 @@ startBtn.addEventListener("click", () => {
 });
 const stopBtn = document.getElementById("stop");
 stopBtn.addEventListener("click", () => {
-  //console.log("button clicked");
+  console.log("button clicked");
   clearInterval(slideShow);
 });
 
