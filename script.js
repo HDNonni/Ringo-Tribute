@@ -12,7 +12,7 @@ let preload = new Array();
 
 for (n = 0; n < randomimages.length; n++) {
   preload[n] = new Image();
-  preload[n].src = "images/" + randomimages[n];
+  preload[n].src = "resizedImages/" + randomimages[n];
 }
 let importImages =
   // '<img name="defaultimage" src="' +
@@ -28,7 +28,7 @@ function rotateimage() {
     curindex = curindex == 0 ? 1 : curindex - 1;
   } else curindex = tempindex;
 
-  document.images.defaultimage.src = "images/" + randomimages[curindex];
+  document.images.defaultimage.src = "resizedImages/" + randomimages[curindex];
 }
 
 let slideshow;

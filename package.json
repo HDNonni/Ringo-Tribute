@@ -1,0 +1,23 @@
+{
+  "name": "ringotribute",
+  "version": "1.0.0",
+  "description": "tribute to Ringo",
+  "main": "imagesDatabase.js",
+  "dependencies": {
+    "jimp": "^0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDNonni/Ringo-Tribute.git"
+  },
+  "author": "HDNonni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HDNonni/Ringo-Tribute/issues"
+  },
+  "homepage": "https://github.com/HDNonni/Ringo-Tribute#readme"
+}
